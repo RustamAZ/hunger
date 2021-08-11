@@ -1,0 +1,32 @@
+.header{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  &__list { 
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    width: 133px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    &:nth-child(4) {
+      margin-right: 18%;
+    }
+  }
+}
