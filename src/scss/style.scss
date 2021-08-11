@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: 'Open sans', sans-serif;
+  font-size: 18px;
+  
+}
+
+.container { 
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+@import "_varriable.scss";
+@import "header.scss" ;
+@import "hero.scss" ;

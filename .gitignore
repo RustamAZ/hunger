@@ -1,0 +1,4 @@
+# build project
+/dist/
+#nodeJS
+node_modules
